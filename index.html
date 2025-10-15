@@ -361,45 +361,82 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- Image carousel section -->
+
 <section class="hero is-small">
+
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+
+      <!-- TIME-IMM Carousel -->
+      <h1 class="title has-text-centered">TIME-IMM Dataset</h1>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Cause-driven taxonomy and dataset overview for irregular multimodal time series.
       </h2>
+
+      <div id="time-imm-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/Taxonomy_IMTS.png" alt="TIME-IMM taxonomy of irregularities" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Taxonomy of irregularities across trigger-, constraint-, and artifact-based causes.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/datasets_overview.png" alt="TIME-IMM dataset overview" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Overview of the nine real-world multimodal datasets in TIME-IMM.</h2>
+        </div>
+      </div>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- IMM-TSF Carousel -->
+      <h1 class="title has-text-centered">IMM-TSF Benchmark Library</h1>
+      <h2 class="subtitle has-text-centered">
+        Modular framework for forecasting irregular multimodal time series.
+      </h2>
+
+      <div id="imm-tsf-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/Fusion_IMMTSF.png" alt="IMM-TSF fusion modules" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Fusion architecture combining asynchronous text and numerical data.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/pre_alignment.png" alt="Pre-alignment in IMM-TSF" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Timestamp-preserving pre-alignment for irregular time series models.</h2>
+        </div>
+      </div>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- Experimental Results Carousel -->
+      <h1 class="title has-text-centered">Experimental Results</h1>
+      <h2 class="subtitle has-text-centered">
+        Multimodality consistently improves forecasting across irregularity types.
+      </h2>
+
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/text_vs_no_text_radar.png" alt="Multimodal vs unimodal radar chart" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Radar plot: multimodal forecasting improves accuracy across all baselines.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/text_vs_no_text_dumbbell_by_dataset.png" alt="Dataset-wise multimodal gain comparison" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Dataset-wise performance gains from textual context.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/fusion_comparison.png" alt="Fusion strategy comparison" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Fusion strategy comparison: GR-Add yields most stable results.</h2>
+        </div>
+        <div class="item">
+          <img src="static/images/llm_comparison_lines_by_model.png" alt="Text encoder comparison" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">Text encoder comparison: GPT-2, BERT, Llama-3.1, DeepSeek perform similarly.</h2>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+
+<!-- End image carousel section -->
+
 
 
 
